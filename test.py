@@ -24,7 +24,7 @@ db_config = {
     "password": "@Qwerty123",
     "database": "brgy_informationdb",
     "use_pure": True,  # Use pure Python implementation (important for SSL)
-    "ssl_ca": None,  # Do not specify SSL certificates
+    "ssl_ca": "C:\Users\User\Downloads\DigiCertGlobalRootCA.crt.pem",  # Do not specify SSL certificates
     "ssl_cert": None,
     "ssl_key": None,
     "ssl_verify_identity": True,
