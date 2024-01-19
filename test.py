@@ -36,6 +36,5 @@ else:
     #clean up
     conn.commit()
     cursor.close()
-    conn.close
+    conn.close()
     print("Done")
-    
